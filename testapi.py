@@ -5,5 +5,5 @@ llm = ChatGoogleGenerativeAI(
     temperature=0.3,
 )
 
-res = llm.invoke("what you doing?")
+res = llm.invoke("what you doing?").content
 print(res)
